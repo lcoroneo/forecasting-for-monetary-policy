@@ -1,6 +1,6 @@
 ---------------------------------------------
-# Replication Package for “Forecasting for Monetary Policy”  
-**Coroneo, L. (2025), International Journal of Forecasting**  
+# Replication Package for  Coroneo, L., "Forecasting for monetary policy", International Journal of Forecasting, 2025
+
 ---------------------------------------------
 
 ## 1. Package Assembly
@@ -53,21 +53,20 @@ All data files are included in the root folder as Excel (`.xlsx`) files. They ar
    bank_rate;           % Generates Figure 1
    comparison_naive;    % Generates Table 1 & Figures 2–4
    comparison_surveys;  % Generates Figure 5
-Outputs (figures, tables) will be displayed in MATLAB and saved in the current folder as .png or .csv.
 
 ## 6. Code Overview
 
-bank_rate.m	Reproduce Bank Rate and market expectations (Fig 1)
-comparison_naive.m	BOE vs naïve benchmarks (Table 1 & Figs 2–4)
-comparison_surveys.m	BOE vs survey forecasts (Fig 5)
-dm_fsa_cv.m	Diebold–Mariano tests (Auxiliary)
-NeweyWest.m	Newey–West variance estimator (Auxiliary)
+- **bank_rate.m**	Reproduce Bank Rate and market expectations (Fig 1)
+- **comparison_naive.m**	BOE vs naïve benchmarks (Table 1 & Figs 2–4)
+- **comparison_surveys.m**	BOE vs survey forecasts (Fig 5)
+- **dm_fsa_cv.m**	Diebold–Mariano tests (Auxiliary)
+- **NeweyWest.m**	Newey–West variance estimator (Auxiliary)
 
 ## 7. License & Citation
-Code license: MIT (see LICENSE).
+Code license: MIT © 2025 Laura Coroneo
 
 Data: publicly available from BOE and HM Treasury (no license needed).
 
 If you use this code in your work, please cite:
 
-Coroneo, L. (2025). Forecasting for monetary policy. International Journal of Forecasting.
+**Coroneo, L. (2025). Forecasting for monetary policy. International Journal of Forecasting.**
